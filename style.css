@@ -29,7 +29,7 @@
 .d1 {
     display: flex;
     width: 85rem;
-    
+
     margin: 1rem;
     margin-left: 3rem;
     align-items: center;
@@ -43,7 +43,6 @@
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-
 }
 
 .logo img {
@@ -65,20 +64,19 @@
 }
 
 .nav button {
-    
-    background: transparent;
     border-radius: 10px;
-    border: none;
     margin: 0rem 1rem;
     padding: 0.5rem 2rem;
     font-weight: 600;
     transition: 100ms;
+    background-color: rgba(6, 6, 6, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .nav button:hover {
-
+    border: none;
     color: rgba(255, 255, 255, 1);
-    box-shadow:inset 155px 115px 115px rgba(31, 38, 135, 0.37);
-
-
+    box-shadow: inset 155px 115px 115px rgba(0, 255, 8, 1) , 0 0 15px rgba(0, 255, 8, 1);
 }

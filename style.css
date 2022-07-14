@@ -23,12 +23,20 @@
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
+    scroll-behavior: smooth;
 }
 
 .d1 {
-    width: max-content;
+    display: flex;
+    width: 85rem;
+    border: 1px solid white;
     margin: 1rem;
     margin-left: 3rem;
+    align-items: center;
+}
+
+.logo {
+    width: max-content;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(20px);
@@ -38,7 +46,7 @@
 
 }
 
-.d1 img {
+.logo img {
     padding: 0.25em;
     width: 30rem;
 }
@@ -47,4 +55,30 @@
     width: 95%;
     color: white;
     margin: auto;
+}
+
+.nav {
+    position: relative;
+    /*border: 1px solid white;*/
+    left: 23rem;
+    height: 100%;
+}
+
+.nav button {
+    border: 1px solid rgba(255, 255, 255, 0.88);
+    background: transparent;
+    border-radius: 10px;
+    margin: 0rem 1rem;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+}
+
+.nav button:hover {
+
+
+    -webkit-box-shadow:inset 0px 0px 300px 200px rgba(45, 255, 196, 1);
+    -moz-box-shadow:inset 0px 0px 300px 200px rgba(45, 255, 196, 1);
+    box-shadow:inset 0px 0px 300px 200px rgba(45, 255, 196, 1);
+
+
 }

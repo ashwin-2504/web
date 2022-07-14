@@ -3,66 +3,48 @@
     padding: 0;
 }
 
-body {
-    background-image: url(./wave-haikei.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
-
-#visual {
-
-
-
-    position: absolute;
-
-}
-
 .main {
-    background: rgba(0, 0, 0, 0.55);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(7.5px);
-    -webkit-backdrop-filter: blur(7.5px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-image: url(https://images.unsplash.com/photo-1432839318976-b5c5785ce43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*overflow: hidden;*/
+}
+
+.sub-main {
+    height: 95%;
+    width: 95%;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .d1 {
-    height: 100vh;
-    width: 96%;
+    width: max-content;
+    margin: 1rem;
+    margin-left: 3rem;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
 }
 
 .d1 img {
-    box-shadow: 0px 0px 200px 0px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0px 0px 200px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0px 0px 200px 0px rgba(0, 0, 0, 0.5);
-    margin-left: 3%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
+    padding: 0.25em;
     width: 30rem;
-    border-radius: 1rem;
 }
 
 .hr {
     width: 95%;
+    color: white;
     margin: auto;
-}
-
-
-
-.d2 {
-    box-shadow: -11px 0px 22px -3px rgba(0, 0, 0, 0.39);
-    -webkit-box-shadow: -11px 0px 22px -3px rgba(0, 0, 0, 0.39);
-    -moz-box-shadow: -11px 0px 22px -3px rgba(0, 0, 0, 0.39);
-    height: 100vh;
-    width: 4%;
-    z-index: 10;
-}
-
-.s-logo img {
-    margin-top: 1.5rem;
-    margin-left: 3px;
-    width: 3.6rem;
-    height: 3.6rem;
 }

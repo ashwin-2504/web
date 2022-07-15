@@ -131,4 +131,10 @@
 
 .s2 {
     border: 1px solid white;
+    display: flex;
+    padding: 2rem;
+}
+
+.s2 .card{
+    border: 1px solid;
 }

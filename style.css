@@ -23,15 +23,21 @@
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.sub-main2 {
+    border: 1px solid white;
+    height: 95%;
     scroll-behavior: smooth;
+    margin: 1rem;
+    overflow: scroll;
 }
 
 .d1 {
     display: flex;
     width: 85rem;
 
-    margin: 1rem;
-    margin-left: 3rem;
+    margin: 1rem 1rem 1rem 3rem;
     align-items: center;
 }
 
@@ -48,12 +54,6 @@
 .logo img {
     padding: 0.25em;
     width: 30rem;
-}
-
-.hr {
-    width: 95%;
-    color: white;
-    margin: auto;
 }
 
 .nav {
@@ -78,5 +78,40 @@
 .nav button:hover {
     border: none;
     color: rgba(255, 255, 255, 1);
-    box-shadow: inset 155px 115px 115px rgba(0, 255, 8, 1) , 0 0 15px rgba(0, 255, 8, 1);
+    box-shadow: inset 155px 115px 115px rgba(0, 255, 8, 1), 0 0 15px rgba(0, 255, 8, 1);
+}
+
+.hr {
+    width: 95%;
+    color: white;
+    margin: auto;
+}
+
+.content {
+    margin: 2rem 3rem 1rem 3rem;
+    height: max-content;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.s1 {
+    margin-top: 5rem;
+    border: 1px solid;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.s1 img {
+    position: relative;
+    bottom: 5rem;
+    width: 30rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 14px;
+}
+
+.s1 p {
+    
 }

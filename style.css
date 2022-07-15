@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +28,6 @@
 }
 
 .sub-main2 {
-    border: 1px solid white;
     height: 95%;
     scroll-behavior: smooth;
     margin: 1rem;
@@ -97,7 +98,6 @@
 
 .s1 {
     margin-top: 5rem;
-    border: 1px solid;
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -111,8 +111,16 @@
     width: 30rem;
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 14px;
+    -webkit-box-shadow: 0px 17px 17px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 17px 17px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 15px 20px 1px rgba(0, 0, 0, 0.75);
 }
 
 .s1 p {
-
+    top: -10rem;
+    padding: 0 10rem 4rem 10rem;
+    font-size: 26px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;;
 }

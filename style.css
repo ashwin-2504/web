@@ -31,6 +31,7 @@
     scroll-behavior: smooth;
     margin: 1rem;
     overflow: scroll;
+    scrollbar-width: none;
 }
 
 .d1 {
@@ -113,5 +114,5 @@
 }
 
 .s1 p {
-    
+
 }

@@ -118,13 +118,20 @@
 }
 
 .ashwin {
+  display: flex;
   margin: 2rem;
-  border: 2px dashed blue;
+  border: 2px dashed blueviolet;
 }
 
 .s1 img {
-  padding: 0.2rem;
+  box-shadow: 0 0 2rem .1rem black;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   width: 10rem;
   display: flex;
+  margin: 1rem;
   border-radius: 50%;
+}
+
+.info-a {
+  border: 3px solid blue;
 }

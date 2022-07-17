@@ -123,8 +123,8 @@
 }
 
 .s1 img {
+  padding: 0.2rem;
   width: 10rem;
   display: flex;
-  border: 1px solid red;
   border-radius: 50%;
 }

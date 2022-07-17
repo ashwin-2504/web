@@ -37,7 +37,6 @@
 
 .d1 {
   display: flex;
-  border: 1px solid white;
   overflow-x: hidden;
   margin: 1rem;
   align-items: center;
@@ -58,8 +57,6 @@
 }
 
 .nav {
-  border: 1px solid white;
-
   height: 100%;
 
   width: max-content;
@@ -144,4 +141,8 @@
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#card1 {
+  border: 2px solid green;
 }

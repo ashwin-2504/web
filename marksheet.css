@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-image: url(https://images.unsplash.com/photo-1432839318976-b5c5785ce43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*overflow: hidden;*/
+}
+
+.sub-main {
+  height: 95%;
+  width: 95%;
+  /* background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);*/
+}
+
+.sub-main2 {
+  height: 95%;
+  scroll-behavior: smooth;
+  margin: 1rem;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.d1 {
+  display: flex;
+  overflow-x: hidden;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin: 0 5rem;
+  width: max-content;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.logo img {
+  padding: 0.25rem;
+  width: 30rem;
+}
+
+.nav {
+  margin: 0 5rem;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+
+  width: max-content;
+}
+
+.nav button {
+  border-radius: 10px;
+  margin: 0rem 1rem;
+  height: 3rem;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  transition: 100ms;
+  background-color: rgba(6, 6, 6, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nav button a {
+  font-size: medium;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+.nav button:hover {
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: inset 155px 115px 115px rgba(0, 255, 8, 1),
+    0 0 15px rgba(0, 255, 8, 1);
+}
+
+.hr {
+  width: 95%;
+  color: white;
+  margin: auto;
+}

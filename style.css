@@ -132,17 +132,16 @@
   margin-top: 2rem;
   display: flex;
   border: 1px solid white;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-  border: 1px solid red;
+  border: 1px dotted red;
   background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(4px);
+  /*backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-#card1 {
-  border: 2px solid green;
+  width: 10rem;*/
 }

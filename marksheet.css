@@ -100,3 +100,19 @@
   color: white;
   margin: auto;
 }
+
+.content {
+  margin: 2rem 3rem 1rem 3rem;
+  height: max-content;
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+.s1 {
+  margin-top: 5rem;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}

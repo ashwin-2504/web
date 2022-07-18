@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
@@ -140,7 +140,7 @@
   text-align: left;
 }
 
-.info-a h3 {
-  color: red;
-  font-family: "Edu SA Beginner", cursive;
+.info-a text {
+  
+  font-family: 'Roboto Mono', monospace;
 }

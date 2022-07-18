@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
@@ -47,11 +48,11 @@
 .logo {
   margin: 0 5rem;
   width: max-content;
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 2px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .logo img {
@@ -110,11 +111,11 @@
 
 .s1 {
   margin-top: 0.5rem;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .ashwin {
@@ -124,7 +125,7 @@
 }
 
 .s1 img {
-  box-shadow: 0 0 2rem .1rem black;
+  box-shadow: 0 0 2rem 0.1rem black;
   border: 1px solid rgba(255, 255, 255, 0.18);
   width: 10rem;
   display: flex;
@@ -139,6 +140,7 @@
   text-align: left;
 }
 
-.info-a p {
-  
+.info-a h3 {
+  color: red;
+  font-family: "Edu SA Beginner", cursive;
 }

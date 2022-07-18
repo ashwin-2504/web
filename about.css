@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
@@ -124,11 +124,11 @@
   border: 2px dashed blueviolet;
 }
 
-.s1 img {
+.ashwin img {
   box-shadow: 0 0 2rem 0.1rem black;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 10rem;
-  display: flex;
+  max-width: 10rem;
+  max-height: 10rem;
   margin: 1rem;
   border-radius: 50%;
 }
@@ -137,10 +137,13 @@
   border: 3px solid blue;
   width: 90%;
   height: auto;
+  display: flex;
+  jus-items: center;
   text-align: left;
 }
 
 .info-a text {
-  
-  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Roboto Mono", monospace;
 }

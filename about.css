@@ -148,9 +148,7 @@
   height: max-content;
   font-family: "IBM Plex Sans", sans-serif;
   transition: 4s ease-in;
-  animation: animate normal;
 }
-
 
 .info-a h1::after {
   content: "";
@@ -159,4 +157,32 @@
   width: 60%;
   background-color: white;
   height: 0.5rem;
+  animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+  /*animation-delay: 1.5s;*/
+}
+
+.info-a h1 {
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  line-height: 1;
+}
+
+h1 span {
+  display: block;
+  animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+h1::after {
+  display: block;
+  animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }

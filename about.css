@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
@@ -134,16 +135,28 @@
 }
 
 .info-a {
-  border: 3px solid blue;
   width: 90%;
+  margin-left: 2rem;
   height: auto;
   display: flex;
-  jus-items: center;
+  justify-items: center;
   text-align: left;
+  align-items: center;
 }
 
-.info-a text {
-  font-size: 2rem;
-  font-weight: 900;
-  font-family: "Roboto Mono", monospace;
+.info-a h1 {
+  height: max-content;
+  font-family: "IBM Plex Sans", sans-serif;
+  transition: 4s ease-in;
+  animation: animate normal;
+}
+
+
+.info-a h1::after {
+  content: "";
+  margin-top: 0.1rem;
+  display: flex;
+  width: 60%;
+  background-color: white;
+  height: 0.5rem;
 }

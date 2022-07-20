@@ -110,7 +110,7 @@
   text-align: center;
 }
 
-.s1 {
+.ashwin {
   margin-top: 0.5rem;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(4px);
@@ -119,38 +119,49 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.ashwin {
+.main-a {
   display: flex;
   margin: 2rem;
   border: 2px dashed blueviolet;
 }
 
-.ashwin img {
-  box-shadow: 0 0 2rem 0.1rem black;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+.profile {
+  border: 1px solid salmon;
+  width: 15%;
+  height: 100%;
+}
+
+.profile img {
+  box-shadow: 0 0 0.5rem 0.01rem black;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   max-width: 10rem;
   max-height: 10rem;
   margin: 1rem;
   border-radius: 50%;
 }
 
-.info-a {
-  width: 90%;
+.main-data {
+  border: 1px solid aqua;
+  width: 100%; 
+}
+
+.title {
+  width: max-content;
   margin-left: 2rem;
-  height: auto;
+  height: 12rem;
   display: flex;
   justify-items: center;
   text-align: left;
   align-items: center;
 }
 
-.info-a h1 {
+.title h1 {
   height: max-content;
   font-family: "IBM Plex Sans", sans-serif;
   transition: 4s ease-in;
 }
 
-.info-a h1::after {
+.title h1::after {
   content: "";
   margin-top: 0.1rem;
   display: flex;
@@ -161,7 +172,7 @@
   /*animation-delay: 1.5s;*/
 }
 
-.info-a h1 {
+.title h1 {
   margin: 0;
   text-align: center;
   overflow: hidden;
@@ -185,4 +196,8 @@ h1::after {
   100% {
     transform: translate(0, 0);
   }
+}
+
+.data {
+  border: 1px solid red;
 }
